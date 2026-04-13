@@ -1,0 +1,338 @@
+[
+  {
+    "slug": "bf-105-brainfeeder-thundercat-fair-chance-floating-points-ho",
+    "artist": "Thundercat",
+    "album": "Fair Chance",
+    "track": "Fair Chance",
+    "search": "Thundercat Fair Chance Floating Points remix"
+  },
+  {
+    "slug": "lacr-031-la-club-resource-delroy-edwards-change-the-world-ho",
+    "artist": "Delroy Edwards",
+    "album": "Change The World",
+    "track": "Change The World",
+    "search": "Delroy Edwards Change The World"
+  },
+  {
+    "slug": "mm-39-mahogani-music-randolph-in-the-company-of-others-ep-ho",
+    "artist": "Paul Randolph",
+    "album": "In The Company Of Others EP",
+    "track": "In The Company Of Others",
+    "search": "Paul Randolph In The Company Of Others"
+  },
+  {
+    "slug": "odiliv-002lp-odion-livingstone-grotto-at-last-funk-uklp-odio",
+    "artist": "Odion Livingstone",
+    "album": "Grotto At Last",
+    "track": "Grotto At Last",
+    "search": "Odion Livingstone Grotto At Last"
+  },
+  {
+    "slug": "odiliv-003lp-odion-livingstone-apples-mind-twister-funk-uklp",
+    "artist": "Odion Livingstone",
+    "album": "Apples Mind Twister",
+    "track": "Mind Twister",
+    "search": "Odion Livingstone Mind Twister"
+  },
+  {
+    "slug": "rhm-0102-rush-hour-rick-wilhite-vibes-2-part-2-house-eu2lp-2",
+    "artist": "Rick Wilhite",
+    "album": "Vibes 2 Part 2",
+    "track": "Vibes 2",
+    "search": "Rick Wilhite Vibes 2"
+  },
+  {
+    "slug": "arilp-005-ariwa-sounds-mad-professor-dub-me-crazy-pt-3-the-r",
+    "artist": "Mad Professor",
+    "album": "Dub Me Crazy Pt. 3",
+    "track": "Killing Me Softly With Dub",
+    "search": "Mad Professor Killing Me Softly With Dub"
+  },
+  {
+    "slug": "arilp-011-ariwa-sounds-mad-professor-dub-me-crazy-pt-4-escap",
+    "artist": "Mad Professor",
+    "album": "Dub Me Crazy Pt. 4",
+    "track": "Escape To Reggae Dub",
+    "search": "Mad Professor Escape To Reggae Dub"
+  },
+  {
+    "slug": "arilp-025-ariwa-sounds-mad-professor-a-caribbean-taste-of-re",
+    "artist": "Mad Professor",
+    "album": "A Caribbean Taste Of Reggae Dub",
+    "track": "A Caribbean Taste Of Reggae Dub",
+    "search": "Mad Professor Caribbean Taste Reggae Dub"
+  },
+  {
+    "slug": "asa103-as-shams-black-disco-discovery",
+    "artist": "Various Artists",
+    "album": "Black Disco Discovery",
+    "track": "Black Disco",
+    "search": "Black Disco Discovery South Africa jazz funk"
+  },
+  {
+    "slug": "bf-7135-brainfeeder-thundercat-tame-impala-no-more-lies-rock",
+    "artist": "Thundercat & Tame Impala",
+    "album": "No More Lies",
+    "track": "No More Lies",
+    "search": "Thundercat Tame Impala No More Lies"
+  },
+  {
+    "slug": "ere-712-empire-blackground-aaliyah-one-in-a-million",
+    "artist": "Aaliyah",
+    "album": "One In A Million",
+    "track": "One In A Million",
+    "search": "Aaliyah One In A Million"
+  },
+  {
+    "slug": "ere-811-griselda-records-empire-benny-the-butcher-tana-talk",
+    "artist": "Benny The Butcher",
+    "album": "Tana Talk 4",
+    "track": "Legend",
+    "search": "Benny The Butcher Legend Tana Talk 4"
+  },
+  {
+    "slug": "ere-956-drumwork-music-group-llc-conway-the-machine-wont-he",
+    "artist": "Conway The Machine",
+    "album": "Won't He Do It",
+    "track": "Juvenile Hell",
+    "search": "Conway The Machine Juvenile Hell"
+  },
+  {
+    "slug": "jid-016lp-jazz-is-dead-phil-ranelin-wendell-harrison",
+    "artist": "Phil Ranelin & Wendell Harrison",
+    "album": "Jazz Is Dead 016",
+    "track": "Message From The Tribe",
+    "search": "Phil Ranelin Message From The Tribe"
+  },
+  {
+    "slug": "jid-019lp-jazz-is-dead-adrian-younge-instrumentals-jid019-bl",
+    "artist": "Adrian Younge",
+    "album": "Instrumentals JID019",
+    "track": "Something About April",
+    "search": "Adrian Younge Something About April"
+  },
+  {
+    "slug": "nbn011-nbn-records-jamma-dee-perceptions-hip-hop-eu2lp-nothi",
+    "artist": "Jamma Dee",
+    "album": "Perceptions",
+    "track": "Perceptions",
+    "search": "Jamma Dee Perceptions hip hop"
+  },
+  {
+    "slug": "nts-tadyk-nts-amaarae-the-angel-you-dont-know-hip-hop-uklp-1",
+    "artist": "Amaarae",
+    "album": "The Angel You Don't Know",
+    "track": "Sad Girlz Luv Money",
+    "search": "Amaarae Sad Girlz Luv Money"
+  },
+  {
+    "slug": "rmm-0561-9d7778-chrysalis-de-la-soul-aoi-bionix-hip-hop-eu2l",
+    "artist": "De La Soul",
+    "album": "AOI: Bionix",
+    "track": "Baby Phat",
+    "search": "De La Soul Baby Phat Bionix"
+  },
+  {
+    "slug": "apnea-104-apnea-hieroglyphic-being-the-moon-dance-eu2lp-unkn",
+    "artist": "Hieroglyphic Being",
+    "album": "The Moon Dance",
+    "track": "The Moon Dance",
+    "search": "Hieroglyphic Being Moon Dance"
+  },
+  {
+    "slug": "ere-863-empire-larry-june-spaceships-on-the-blade-uk2lp-unkn",
+    "artist": "Larry June",
+    "album": "Spaceships On The Blade",
+    "track": "Spaceships On The Blade",
+    "search": "Larry June Spaceships On The Blade"
+  },
+  {
+    "slug": "fat-possum-armand-hammer-us2lp-unknown",
+    "artist": "Armand Hammer",
+    "album": "We Buy Diabetic Test Strips",
+    "track": "Woke Up And The Day Was Already Old",
+    "search": "Armand Hammer Woke Up And The Day Was Already Old"
+  },
+  {
+    "slug": "joyce-wrice-stay-around-uslp-unknown",
+    "artist": "Joyce Wrice",
+    "album": "Stay Around",
+    "track": "Iced Tea",
+    "search": "Joyce Wrice Iced Tea"
+  },
+  {
+    "slug": "lb-0097lp180-luaka-bop-eulp-unknown",
+    "artist": "William Onyeabor",
+    "album": "Who Is William Onyeabor",
+    "track": "Fantastic Man",
+    "search": "William Onyeabor Fantastic Man"
+  },
+  {
+    "slug": "rse-0084-1-mf-doom-mmfood-colored-vinyl-us2lp",
+    "artist": "MF DOOM",
+    "album": "MM..FOOD",
+    "track": "Hoe Cakes",
+    "search": "MF DOOM Hoe Cakes MM FOOD"
+  },
+  {
+    "slug": "sth-2110-stones-throw-quasimoto-us2lp-unknown",
+    "artist": "Quasimoto",
+    "album": "The Unseen",
+    "track": "Come On Feet",
+    "search": "Quasimoto Come On Feet The Unseen"
+  },
+  {
+    "slug": "sth-2126lp-stones-throw-j-dilla-donuts-smile-cover-us2lp-fin",
+    "artist": "J Dilla",
+    "album": "Donuts",
+    "track": "Workinonit",
+    "search": "J Dilla Workinonit Donuts"
+  },
+  {
+    "slug": "rm079bis-roche-musique-fkj-french-kiwi-juice-just-piano-hip",
+    "artist": "FKJ",
+    "album": "Just Piano",
+    "track": "Ylang Ylang",
+    "search": "FKJ Ylang Ylang"
+  },
+  {
+    "slug": "outs07-outsider-parliament-funkadelic-get-up-off-your-ass",
+    "artist": "Parliament-Funkadelic",
+    "album": "Get Up Off Your Ass (Live In Detroit 1977)",
+    "track": "Mothership Connection",
+    "search": "Parliament Funkadelic Mothership Connection live"
+  },
+  {
+    "slug": "eqt121912-masego-lady-lady-hip-hop-uslp-unknown",
+    "artist": "Masego",
+    "album": "Lady Lady",
+    "track": "Queen Tings",
+    "search": "Masego Queen Tings Lady Lady"
+  },
+  {
+    "slug": "iot87lp-iot-records-azu-tiwaline-fifth-dream-techno-eu2lp-un",
+    "artist": "Azu Tiwaline",
+    "album": "Fifth Dream",
+    "track": "Fifth Dream",
+    "search": "Azu Tiwaline Fifth Dream"
+  },
+  {
+    "slug": "whp1473-whp-archie-shepp-live-in-europe-jazz-eu2lp-unknown",
+    "artist": "Archie Shepp",
+    "album": "Live In Europe",
+    "track": "Damn If I Know",
+    "search": "Archie Shepp Live In Europe"
+  },
+  {
+    "slug": "nsd235lp-nature-sounds-talib-kweli-madlib-liberation-2-hip-h",
+    "artist": "Talib Kweli & Madlib",
+    "album": "Liberation 2",
+    "track": "Heads Up Eyes Open",
+    "search": "Talib Kweli Madlib Heads Up Eyes Open Liberation 2"
+  },
+  {
+    "slug": "mms003ilp-madlib-invazion-madlib-medicine-show-no-3-beat-kon",
+    "artist": "Madlib",
+    "album": "Medicine Show No. 3: Beat Konducta In Africa",
+    "track": "Africa",
+    "search": "Madlib Beat Konducta In Africa"
+  },
+  {
+    "slug": "643511-ovo-sound-partynextdoor-partymobile-hip-hop-us2lp-the",
+    "artist": "PARTYNEXTDOOR",
+    "album": "PARTYMOBILE",
+    "track": "Loyal",
+    "search": "PARTYNEXTDOOR Loyal feat Drake"
+  },
+  {
+    "slug": "defb003760601-def-jam-recordings-navy-blue-ways-of-knowing-h",
+    "artist": "Navy Blue",
+    "album": "Ways Of Knowing",
+    "track": "Clarity",
+    "search": "Navy Blue Clarity Ways Of Knowing"
+  },
+  {
+    "slug": "rmm0551-aoi-records-de-la-soul-art-official-intelligence-mos",
+    "artist": "De La Soul",
+    "album": "Art Official Intelligence: Mosaic Thump",
+    "track": "Oooh",
+    "search": "De La Soul Oooh Mosaic Thump"
+  },
+  {
+    "slug": "uar015-delano-smith-norm-talley-straight-up-no-chaser-house",
+    "artist": "Delano Smith & Norm Talley",
+    "album": "Straight Up No Chaser",
+    "track": "Straight Up No Chaser",
+    "search": "Delano Smith Norm Talley Straight Up No Chaser"
+  },
+  {
+    "slug": "ss095-96",
+    "artist": "Theo Parrish & Maurissa Rose",
+    "album": "Free Yourself",
+    "track": "Free Yourself",
+    "search": "Theo Parrish Maurissa Rose Free Yourself"
+  },
+  {
+    "slug": "js001-dj-harrison-monotones-hip-hop-uslp-studio-and-record-l",
+    "artist": "DJ Harrison",
+    "album": "Monotones",
+    "track": "Monotones",
+    "search": "DJ Harrison Monotones Jellowstone"
+  },
+  {
+    "slug": "19658722231-john-legend-love-in-the-future-hip-hop-2lp-conta",
+    "artist": "John Legend",
+    "album": "Love In The Future",
+    "track": "All Of Me",
+    "search": "John Legend All Of Me"
+  },
+  {
+    "slug": "jazzr006-khan-jamal-infinity-jazz-uklp-unknown",
+    "artist": "Khan Jamal",
+    "album": "Infinity",
+    "track": "Infinity",
+    "search": "Khan Jamal Infinity jazz"
+  },
+  {
+    "slug": "fw271-first-word-records-kaidi-tatham-only-way-house-uklp-th",
+    "artist": "Kaidi Tatham",
+    "album": "Only Way",
+    "track": "Only Way",
+    "search": "Kaidi Tatham Only Way"
+  },
+  {
+    "slug": "bwood310lp-yussef-dayes-black-classical-music-jazz-2lp-unkno",
+    "artist": "Yussef Dayes",
+    "album": "Black Classical Music",
+    "track": "Rust",
+    "search": "Yussef Dayes Rust Black Classical Music"
+  },
+  {
+    "slug": "apronevil03-apron-steven-julien-and-kyle-hall-crown-house-12",
+    "artist": "Steven Julien & Kyle Hall",
+    "album": "Crown",
+    "track": "Crown",
+    "search": "FUNKINEVIL Steven Julien Kyle Hall Crown"
+  },
+  {
+    "slug": "ast043-astral-black-jossy-mitsu-planet-j-2-ep-techno-uk12-a",
+    "artist": "Jossy Mitsu",
+    "album": "Planet J 2 EP",
+    "track": "Planet J",
+    "search": "Jossy Mitsu Planet J"
+  },
+  {
+    "slug": "ziq457-planet-mu-unknown",
+    "artist": "Unknown (Planet Mu ZIQ457)",
+    "album": "Unknown",
+    "track": "Unknown",
+    "search": null
+  },
+  {
+    "slug": "mrblp178rb-mr-bongo-unknown",
+    "artist": "Unknown (Mr. Bongo MRBLP178RB)",
+    "album": "Unknown",
+    "track": "Unknown",
+    "search": null
+  }
+]
