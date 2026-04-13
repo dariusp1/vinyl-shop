@@ -20,9 +20,9 @@
     </header>
 
     <main class="catalog">
-        <div id="catalog-grid" class="catalog-grid">
-            <!-- Cards rendered by JS from catalog.json -->
-        </div>
+        <ol id="catalog-list" class="catalog-list">
+            <!-- List rendered by JS from catalog.json -->
+        </ol>
         <p id="catalog-empty" class="catalog-empty" hidden>暂无唱片，敬请期待。</p>
         <p id="catalog-error" class="catalog-error" hidden>加载失败，请刷新重试。</p>
     </main>
@@ -33,7 +33,7 @@
 
     <script>
     (function () {
-        var grid = document.getElementById('catalog-grid');
+        var list = document.getElementById('catalog-list');
         var emptyMsg = document.getElementById('catalog-empty');
         var errorMsg = document.getElementById('catalog-error');
 
@@ -50,22 +50,14 @@
                 var html = '';
                 for (var i = 0; i < catalog.length; i++) {
                     var r = catalog[i];
-                    html += '<a class="card" href="records/' + encodeURIComponent(r.slug) + '/">'
-                        + '<div class="card-cover">'
-                        + '<img src="assets/covers/' + r.slug + '.jpg" alt="" loading="lazy"'
-                        + ' onerror="this.onerror=null;this.src=\'assets/covers/placeholder.svg\';">'
-                        + '</div>'
-                        + '<div class="card-body">'
-                        + '<span class="card-artist">' + esc(r.artist) + '</span>'
-                        + '<span class="card-title">' + esc(r.title) + '</span>'
-                        + '<div class="card-bottom">'
-                        + '<span class="card-price">' + esc(r.price) + '</span>'
-                        + '<span class="badge badge-' + conditionClass(r.condition) + '">' + esc(r.condition) + '</span>'
-                        + '</div>'
-                        + '</div>'
-                        + '</a>';
+                    html += '<li class="catalog-row">'
+                        + '<a href="records/' + encodeURIComponent(r.slug) + '/">'
+                        + esc(r.artist)
+                        + '</a>'
+                        + '<span class="row-price">' + esc(r.price) + '</span>'
+                        + '</li>';
                 }
-                grid.innerHTML = html;
+                list.innerHTML = html;
             })
             .catch(function () {
                 errorMsg.hidden = false;
@@ -75,14 +67,6 @@
             var el = document.createElement('span');
             el.textContent = s || '';
             return el.innerHTML;
-        }
-
-        function conditionClass(c) {
-            if (!c) return 'default';
-            var l = c.replace(/[^a-zA-Z]/g, '').toLowerCase();
-            if (l === 'nm' || l === 'm') return 'mint';
-            if (l === 'vg') return 'vg';
-            return 'default';
         }
     })();
     </script>
