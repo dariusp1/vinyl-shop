@@ -18,8 +18,9 @@ function initPlayer() {
     var fill  = document.getElementById('progress-fill');
     if (!btn || !audio) return;
 
-    var timer = null;
-    var raf   = null;
+    var timer    = null;
+    var raf      = null;
+    var pending  = false; // play() promise in flight
 
     function updateProgress() {
         if (fill && audio.duration) {
@@ -29,7 +30,7 @@ function initPlayer() {
     }
 
     function stop() {
-        audio.pause();
+        if (!audio.paused) audio.pause();
         audio.currentTime = 0;
         btn.textContent = '\u25B6 \u8BD5\u542C 30\u79D2';
         if (fill) fill.style.width = '0%';
@@ -37,12 +38,37 @@ function initPlayer() {
         if (raf)   { cancelAnimationFrame(raf); raf = null; }
     }
 
+    audio.addEventListener('error', function () {
+        btn.textContent = '[ \u65E0\u6CD5\u64AD\u653E ]';
+        btn.disabled = true;
+    });
+
     btn.addEventListener('click', function () {
+        if (pending) return;
+
         if (audio.paused) {
-            audio.play();
-            btn.textContent = '\u23F8 \u6682\u505C';
-            updateProgress();
-            timer = setTimeout(stop, PREVIEW_SECONDS * 1000);
+            pending = true;
+            var p = audio.play();
+            if (p !== undefined) {
+                p.then(function () {
+                    pending = false;
+                    btn.textContent = '\u23F8 \u6682\u505C';
+                    updateProgress();
+                    timer = setTimeout(stop, PREVIEW_SECONDS * 1000);
+                }).catch(function (err) {
+                    pending = false;
+                    if (err.name !== 'AbortError') {
+                        btn.textContent = '[ \u65E0\u6CD5\u64AD\u653E ]';
+                        btn.disabled = true;
+                    }
+                });
+            } else {
+                // Legacy browser — no promise returned
+                pending = false;
+                btn.textContent = '\u23F8 \u6682\u505C';
+                updateProgress();
+                timer = setTimeout(stop, PREVIEW_SECONDS * 1000);
+            }
         } else {
             stop();
         }
@@ -58,11 +84,11 @@ function initMultiPlayer() {
         return;
     }
 
-    var active = null; // { audio, btn, fill, timer, raf }
+    var active = null; // { audio, btn, fill, timer, raf, pending }
 
     function stopActive() {
         if (!active) return;
-        active.audio.pause();
+        if (!active.audio.paused) active.audio.pause();
         active.audio.currentTime = 0;
         active.btn.textContent = '\u25B6 \u8BD5\u542C';
         if (active.fill) active.fill.style.width = '0%';
@@ -77,7 +103,7 @@ function initMultiPlayer() {
         var fill  = item.querySelector('.progress-fill');
         if (!btn || !audio) return;
 
-        var state = { audio: audio, btn: btn, fill: fill, timer: null, raf: null };
+        var state = { audio: audio, btn: btn, fill: fill, timer: null, raf: null, pending: false };
 
         function updateProgress() {
             if (fill && audio.duration) {
@@ -86,29 +112,57 @@ function initMultiPlayer() {
             if (!audio.paused) state.raf = requestAnimationFrame(updateProgress);
         }
 
+        function stopThis() {
+            if (!audio.paused) audio.pause();
+            audio.currentTime = 0;
+            btn.textContent = '\u25B6 \u8BD5\u542C';
+            if (fill) fill.style.width = '0%';
+            if (state.timer) { clearTimeout(state.timer); state.timer = null; }
+            if (state.raf)   { cancelAnimationFrame(state.raf); state.raf = null; }
+            active = null;
+        }
+
+        audio.addEventListener('error', function () {
+            btn.textContent = '[ \u65E0\u6CD5\u64AD\u653E ]';
+            btn.disabled = true;
+        });
+
         btn.addEventListener('click', function () {
+            if (state.pending) return;
+
             if (active && active !== state) stopActive();
 
             if (audio.paused) {
-                audio.play();
-                btn.textContent = '\u23F8 \u6682\u505C';
-                updateProgress();
-                state.timer = setTimeout(function () {
-                    audio.pause();
-                    audio.currentTime = 0;
-                    btn.textContent = '\u25B6 \u8BD5\u542C';
-                    if (fill) fill.style.width = '0%';
-                    if (state.raf) { cancelAnimationFrame(state.raf); state.raf = null; }
-                    active = null;
-                }, PREVIEW_SECONDS * 1000);
-                active = state;
+                state.pending = true;
+                var p = audio.play();
+                if (p !== undefined) {
+                    p.then(function () {
+                        state.pending = false;
+                        btn.textContent = '\u23F8 \u6682\u505C';
+                        updateProgress();
+                        state.timer = setTimeout(stopThis, PREVIEW_SECONDS * 1000);
+                        active = state;
+                    }).catch(function (err) {
+                        state.pending = false;
+                        if (err.name !== 'AbortError') {
+                            btn.textContent = '[ \u65E0\u6CD5\u64AD\u653E ]';
+                            btn.disabled = true;
+                        }
+                    });
+                } else {
+                    state.pending = false;
+                    btn.textContent = '\u23F8 \u6682\u505C';
+                    updateProgress();
+                    state.timer = setTimeout(stopThis, PREVIEW_SECONDS * 1000);
+                    active = state;
+                }
             } else {
-                stopActive();
+                stopThis();
             }
         });
 
         audio.addEventListener('ended', function () {
-            if (active === state) stopActive();
+            if (active === state) stopThis();
         });
     });
 }
