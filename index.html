@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黑胶唱片店 — Vinyl Shop</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+<pre class="ascii-logo">
+ ██████╗ ███████╗███╗   ██╗███████╗
+██╔═══██╗██╔════╝████╗  ██║██╔════╝
+██║   ██║███████╗██╔██╗ ██║███████╗
+██║   ██║╚════██║██║╚██╗██║╚════██║
+╚██████╔╝███████║██║ ╚████║███████║
+ ╚═════╝ ╚══════╝╚═╝  ╚═══╝╚══════╝
+</pre>
+        <p class="tagline">精选黑胶 &middot; 聆听经典</p>
+    </header>
+
+    <main class="catalog">
+        <div id="catalog-grid" class="catalog-grid">
+            <!-- Cards rendered by JS from catalog.json -->
+        </div>
+        <p id="catalog-empty" class="catalog-empty" hidden>暂无唱片，敬请期待。</p>
+        <p id="catalog-error" class="catalog-error" hidden>加载失败，请刷新重试。</p>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 黑胶唱片店</p>
+    </footer>
+
+    <script>
+    (function () {
+        var grid = document.getElementById('catalog-grid');
+        var emptyMsg = document.getElementById('catalog-empty');
+        var errorMsg = document.getElementById('catalog-error');
+
+        fetch('data/catalog.json')
+            .then(function (res) {
+                if (!res.ok) throw new Error(res.status);
+                return res.json();
+            })
+            .then(function (catalog) {
+                if (!catalog.length) {
+                    emptyMsg.hidden = false;
+                    return;
+                }
+                var html = '';
+                for (var i = 0; i < catalog.length; i++) {
+                    var r = catalog[i];
+                    html += '<a class="card" href="records/' + encodeURIComponent(r.slug) + '/">'
+                        + '<div class="card-cover">'
+                        + '<img src="assets/covers/' + r.slug + '.jpg" alt="" loading="lazy"'
+                        + ' onerror="this.onerror=null;this.src=\'assets/covers/placeholder.svg\';">'
+                        + '</div>'
+                        + '<div class="card-body">'
+                        + '<span class="card-artist">' + esc(r.artist) + '</span>'
+                        + '<span class="card-title">' + esc(r.title) + '</span>'
+                        + '<div class="card-bottom">'
+                        + '<span class="card-price">' + esc(r.price) + '</span>'
+                        + '<span class="badge badge-' + conditionClass(r.condition) + '">' + esc(r.condition) + '</span>'
+                        + '</div>'
+                        + '</div>'
+                        + '</a>';
+                }
+                grid.innerHTML = html;
+            })
+            .catch(function () {
+                errorMsg.hidden = false;
+            });
+
+        function esc(s) {
+            var el = document.createElement('span');
+            el.textContent = s || '';
+            return el.innerHTML;
+        }
+
+        function conditionClass(c) {
+            if (!c) return 'default';
+            var l = c.replace(/[^a-zA-Z]/g, '').toLowerCase();
+            if (l === 'nm' || l === 'm') return 'mint';
+            if (l === 'vg') return 'vg';
+            return 'default';
+        }
+    })();
+    </script>
+</body>
+</html>
