@@ -308,6 +308,16 @@ main.catalog {
   margin-bottom: 1.25rem;
 }
 
+.record-description {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin-top: 0.75rem;
+  border-top: 1px dashed var(--color-border);
+  padding-top: 0.75rem;
+}
+
 .record-artist {
   font-family: var(--font-mono);
   font-size: 0.875rem;

@@ -7,7 +7,13 @@
     "label": "",
     "genre": "",
     "price": "¥55",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Thundercat",
+    "title_clean": "Fair Chance",
+    "label_clean": "Brainfeeder",
+    "genre_clean": "House",
+    "format_clean": "UK12''",
+    "description_cn": "英国著名制作人Floating Points为Thundercat的《Fair Chance》倾力打造混音版本。这个版本融合了House元素,展现了两位艺术家的创意碰撞。"
   },
   {
     "slug": "lacr-031-la-club-resource-delroy-edwards-change-the-world-ho",
@@ -17,7 +23,13 @@
     "label": "",
     "genre": "",
     "price": "¥91",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "DELROY EDWARDS",
+    "title_clean": "CHANGE THE WORLD",
+    "label_clean": "L.A. CLUB RESOURCE",
+    "genre_clean": "House",
+    "format_clean": "USLP",
+    "description_cn": "Delroy Edwards深爱House音乐，这张专辑绝对值得收藏。"
   },
   {
     "slug": "mm-39-mahogani-music-randolph-in-the-company-of-others-ep-ho",
@@ -27,7 +39,13 @@
     "label": "",
     "genre": "",
     "price": "¥93",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Randolph",
+    "title_clean": "In the Company of Others",
+    "label_clean": "Mahogani Music",
+    "genre_clean": "House",
+    "format_clean": "US2LP",
+    "description_cn": "Paul Randolph与多位艺术家合作的精选集，展现了他在House音乐领域的多面才华。这张双LP汇集了一系列精心挑选的协作作品，呈现出丰富多彩的创意碰撞。"
   },
   {
     "slug": "odiliv-002lp-odion-livingstone-grotto-at-last-funk-uklp-odio",
@@ -37,7 +55,13 @@
     "label": "",
     "genre": "",
     "price": "¥50",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Odion Livingstone",
+    "title_clean": "Grotto At Last",
+    "label_clean": "ODION",
+    "genre_clean": "Funk",
+    "format_clean": "UK LP",
+    "description_cn": "Odion Livingstone呈现的又一张珍贵黑胶唱片复刻版,这是一张罕见的Funk佳作。"
   },
   {
     "slug": "odiliv-003lp-odion-livingstone-apples-mind-twister-funk-uklp",
@@ -47,7 +71,13 @@
     "label": "",
     "genre": "",
     "price": "¥50",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Livingstone",
+    "title_clean": "Apples Mind Twister",
+    "label_clean": "ODION",
+    "genre_clean": "Funk",
+    "format_clean": "UK LP",
+    "description_cn": "尼日利亚灵魂乐传奇Livingstone呈现的又一张精选复刻作品，融合了非洲灵魂与放克节奏的经典之作。"
   },
   {
     "slug": "rhm-0102-rush-hour-rick-wilhite-vibes-2-part-2-house-eu2lp-2",
@@ -57,7 +87,13 @@
     "label": "",
     "genre": "",
     "price": "¥75",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "RICK WILHITE",
+    "title_clean": "VIBES 2. PART 2",
+    "label_clean": "RUSH HOUR",
+    "genre_clean": "House",
+    "format_clean": "EU2LP",
+    "description_cn": "这是Rick Wilhite策划项目的第二部分,汇集了多首独家音轨。"
   },
   {
     "slug": "arilp-005-ariwa-sounds-mad-professor-dub-me-crazy-pt-3-the-r",
@@ -67,7 +103,13 @@
     "label": "",
     "genre": "",
     "price": "¥133",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "MAD PROFESSOR",
+    "title_clean": "DUB ME CRAZY PT 3: THE",
+    "label_clean": "ARIWA SOUNDS",
+    "genre_clean": "Reggae",
+    "format_clean": "LP",
+    "description_cn": "疯狂教授的《Dub Me Crazy》第三部分，展现了雷鬼音乐的深沉dub风格和创意制作。这是一张经典的dub混音专辑，适合喜爱传统雷鬼和实验性音乐的听众。"
   },
   {
     "slug": "arilp-011-ariwa-sounds-mad-professor-dub-me-crazy-pt-4-escap",
@@ -77,7 +119,13 @@
     "label": "",
     "genre": "",
     "price": "¥133",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "MAD PROFESSOR",
+    "title_clean": "DUB ME CRAZY PT 4: ESCAPE TO",
+    "label_clean": "ARIWA SOUNDS",
+    "genre_clean": "Reggae",
+    "format_clean": "LP",
+    "description_cn": "Mad Professor的雷鬼/迪巴经典系列第四部。这张专辑延续了系列标志性的深沉迪巴音乐风格，展现了制作人对节奏和空间感的精妙把握。"
   },
   {
     "slug": "arilp-025-ariwa-sounds-mad-professor-a-caribbean-taste-of-re",
@@ -87,7 +135,13 @@
     "label": "",
     "genre": "",
     "price": "¥133",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "MAD PROFESSOR",
+    "title_clean": "A CARIBBEAN TASTE OF",
+    "label_clean": "ARIWA SOUNDS",
+    "genre_clean": "Reggae",
+    "format_clean": "LP",
+    "description_cn": "Mad Professor打造的加勒比风味雷鬼作品,融合传统雷鬼元素与创新制作手法,展现岛屿音乐的独特魅力。"
   },
   {
     "slug": "asa103-as-shams-black-disco-discovery",
@@ -97,7 +151,13 @@
     "label": "1976 Jazz EULP  Essential South African jazz, funk and soul",
     "genre": "An anthology dedicated to the",
     "price": "¥115",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "AS",
+    "title_clean": "Black Disco Discovery",
+    "label_clean": "AS-Shams",
+    "genre_clean": "Disco",
+    "format_clean": "",
+    "description_cn": "一张充满能量的黑色迪斯科精选合辑，汇集稀有舞池佳作，风格横跨灵魂乐与放克节奏。"
   },
   {
     "slug": "bf-7135-brainfeeder-thundercat-tame-impala-no-more-lies-rock",
@@ -107,7 +167,13 @@
     "label": "",
     "genre": "",
     "price": "¥110",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Thundercat & Tame Impala",
+    "title_clean": "No More Lies",
+    "label_clean": "Brainfeeder",
+    "genre_clean": "Rock",
+    "format_clean": "UK7'",
+    "description_cn": "这是一张限量版单曲黑胶唱片，由爵士融合吉他手Thundercat与psychedelic rock乐队Tame Impala合作演绎。融合了两支乐队独特的音乐风格，带来别具一格的摇滚体验。"
   },
   {
     "slug": "ere-712-empire-blackground-aaliyah-one-in-a-million",
@@ -117,7 +183,13 @@
     "label": "COL VINYL Hip Hop UK2LP  Finally available again…",
     "genre": "",
     "price": "¥139",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Aaliyah",
+    "title_clean": "One In A Million",
+    "label_clean": "Blackground / Empire",
+    "genre_clean": "R&B",
+    "format_clean": "",
+    "description_cn": "R&B天后Aaliyah的传世经典专辑，融合丝滑的节奏蓝调与前卫的制作风格，是九十年代最具影响力的R&B之作。"
   },
   {
     "slug": "ere-811-griselda-records-empire-benny-the-butcher-tana-talk",
@@ -127,7 +199,13 @@
     "label": "",
     "genre": "",
     "price": "¥155",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "",
+    "title_clean": "",
+    "label_clean": "Griselda Records",
+    "genre_clean": "",
+    "format_clean": "",
+    "description_cn": "Griselda Records出品的黑胶唱片,汇聚纽约地下说唱精英的创意之作。"
   },
   {
     "slug": "ere-956-drumwork-music-group-llc-conway-the-machine-wont-he",
@@ -137,7 +215,13 @@
     "label": "",
     "genre": "",
     "price": "¥162",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "",
+    "title_clean": "",
+    "label_clean": "Drumwork Music Group LLC",
+    "genre_clean": "",
+    "format_clean": "",
+    "description_cn": "这是一张来自Drumwork Music Group LLC厂牌的音乐作品，目录号为ERE 956。"
   },
   {
     "slug": "jid-016lp-jazz-is-dead-phil-ranelin-wendell-harrison",
@@ -147,7 +231,13 @@
     "label": "PHIL RANELIN & WENDELL Jazz EULP  JIt. Uco.Su.lTd. Io.Cn.lyE .h Laevaeg huaep, pKehnreydsi sin, DDaertirnogite. rI,t Jwuaicsy inJ t&h em aosreh.es of this Detroit",
     "genre": "",
     "price": "¥151",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Phil Ranelin",
+    "title_clean": "Phil Ranelin",
+    "label_clean": "Jazz Is Dead",
+    "genre_clean": "Jazz",
+    "format_clean": "LP",
+    "description_cn": "爵士长号手Phil Ranelin的作品,由Jazz Is Dead厂牌发行。这是一张经典爵士乐黑胶唱片,展现了Ranelin精湛的演奏技巧和深厚的音乐底蕴。"
   },
   {
     "slug": "jid-019lp-jazz-is-dead-adrian-younge-instrumentals-jid019-bl",
@@ -157,7 +247,13 @@
     "label": "",
     "genre": "",
     "price": "¥151",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Adrian Younge",
+    "title_clean": "Instrumentals",
+    "label_clean": "Jazz Is Dead",
+    "genre_clean": "Jazz",
+    "format_clean": "LP",
+    "description_cn": "Adrian Younge打造的纯器乐作品，融合爵士乐的优雅与现代制作手法，展现大师级的编排能力和音乐才华。"
   },
   {
     "slug": "nbn011-nbn-records-jamma-dee-perceptions-hip-hop-eu2lp-nothi",
@@ -167,7 +263,13 @@
     "label": "",
     "genre": "",
     "price": "¥116",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "JAMMA",
+    "title_clean": "",
+    "label_clean": "NBN RECORDS",
+    "genre_clean": "",
+    "format_clean": "",
+    "description_cn": "NBN厂牌出品的JAMMA作品，是一张值得收藏的黑胶唱片。"
   },
   {
     "slug": "nts-tadyk-nts-amaarae-the-angel-you-dont-know-hip-hop-uklp-1",
@@ -177,7 +279,13 @@
     "label": "",
     "genre": "",
     "price": "¥146",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Amaarae",
+    "title_clean": "The Angel You Don't Know",
+    "label_clean": "NTS",
+    "genre_clean": "Afropop / R&B",
+    "format_clean": "",
+    "description_cn": "加纳裔歌手Amaarae的突破之作，融合非洲流行乐与独立R&B，以其空灵嗓音和独特音乐语言征服全球听众。"
   },
   {
     "slug": "rmm-0561-9d7778-chrysalis-de-la-soul-aoi-bionix-hip-hop-eu2l",
@@ -187,7 +295,12 @@
     "label": "",
     "genre": "",
     "price": "¥216",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "De La Soul",
+    "title_clean": "AOI: Bionix",
+    "label_clean": "Chrysalis / AOI Records",
+    "genre_clean": "Hip Hop",
+    "description_cn": "De La Soul的《AOI》三部曲终章，延续乐队一贯的幽默与哲思，是一张充满创意与个性的嘻哈佳作。"
   },
   {
     "slug": "apnea-104-apnea-hieroglyphic-being-the-moon-dance-eu2lp-unkn",
@@ -197,7 +310,13 @@
     "label": "",
     "genre": "",
     "price": "¥162",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Hieroglyphic Being",
+    "title_clean": "The Moon Dance",
+    "label_clean": "APNEA",
+    "genre_clean": "",
+    "format_clean": "EU2LP",
+    "description_cn": "Hieroglyphic Being的实验性电子音乐佳作《The Moon Dance》，融合深邃的合成器与迷幻声景，带来沉浸式的听觉体验。"
   },
   {
     "slug": "ere-863-empire-larry-june-spaceships-on-the-blade-uk2lp-unkn",
@@ -207,7 +326,13 @@
     "label": "",
     "genre": "",
     "price": "¥183",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "LARRY JUNE",
+    "title_clean": "SPACESHIPS ON THE BLADE",
+    "label_clean": "EMPIRE",
+    "genre_clean": "",
+    "format_clean": "UK2LP",
+    "description_cn": "拉里·朱恩的专辑作品，融合嘻哈节奏与独特的艺术风格。这张双黑胶唱片为粉丝带来了沉浸式的音乐体验。"
   },
   {
     "slug": "fat-possum-armand-hammer-us2lp-unknown",
@@ -217,7 +342,13 @@
     "label": "",
     "genre": "",
     "price": "¥371",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Armand Hammer",
+    "title_clean": "",
+    "label_clean": "Fat Possum",
+    "genre_clean": "",
+    "format_clean": "US2LP",
+    "description_cn": "Armand Hammer是一支杰出的独立嘻哈二人组，以其深邃的歌词和实验性的制作风格著称。这张黑胶唱片展现了他们标志性的艺术追求与音乐创新。"
   },
   {
     "slug": "joyce-wrice-stay-around-uslp-unknown",
@@ -227,7 +358,13 @@
     "label": "",
     "genre": "",
     "price": "¥193",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Joyce Wrice",
+    "title_clean": "Stay Around",
+    "label_clean": "",
+    "genre_clean": "",
+    "format_clean": "LP",
+    "description_cn": "Joyce Wrice的专辑《Stay Around》展现了她独特的R&B风格和温暖的嗓音。这张唱片汇聚了动感的节奏和抒情的旋律，是不容错过的佳作。"
   },
   {
     "slug": "lb-0097lp180-luaka-bop-eulp-unknown",
@@ -237,7 +374,13 @@
     "label": "",
     "genre": "",
     "price": "¥145",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "",
+    "title_clean": "",
+    "label_clean": "Luaka Bop",
+    "genre_clean": "",
+    "format_clean": "LP",
+    "description_cn": "Luaka Bop厂牌发行的黑胶唱片，品质卓越。"
   },
   {
     "slug": "rse-0084-1-mf-doom-mmfood-colored-vinyl-us2lp",
@@ -247,7 +390,13 @@
     "label": "",
     "genre": "",
     "price": "¥213",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "MF DOOM",
+    "title_clean": "MM..Food",
+    "label_clean": "Rhymesayers",
+    "genre_clean": "Hip Hop",
+    "format_clean": "",
+    "description_cn": "MF DOOM的地下嘻哈经典之作，以食物为主题构建独特的宇宙世界观，迷宫般的韵脚与精妙采样令人叹服。彩胶限量版。"
   },
   {
     "slug": "sth-2110-stones-throw-quasimoto-us2lp-unknown",
@@ -257,7 +406,13 @@
     "label": "",
     "genre": "",
     "price": "¥193",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Quasimoto",
+    "title_clean": "",
+    "label_clean": "Stones Throw",
+    "genre_clean": "",
+    "format_clean": "US2LP",
+    "description_cn": "Stones Throw厂牌旗下传奇说唱艺人Quasimoto的经典作品,融合了独特的嘻哈风格和创意采样手法。这张专辑展现了艺人标志性的艺术风格和音乐才华。"
   },
   {
     "slug": "sth-2126lp-stones-throw-j-dilla-donuts-smile-cover-us2lp-fin",
@@ -267,7 +422,13 @@
     "label": "",
     "genre": "",
     "price": "¥193",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "J Dilla",
+    "title_clean": "Donuts (Smile Cover)",
+    "label_clean": "Stones Throw",
+    "genre_clean": "Hip Hop",
+    "format_clean": "US2LP",
+    "description_cn": "J Dilla的经典专辑《甜甜圈》的特别版本，收录45分钟的精选制作。这是这位传奇制作人最具影响力的作品之一，以其创意的采样和创新的节拍设计著称。"
   },
   {
     "slug": "rm079bis-roche-musique-fkj-french-kiwi-juice-just-piano-hip",
@@ -277,7 +438,13 @@
     "label": "",
     "genre": "",
     "price": "¥166",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "FKJ",
+    "title_clean": "JUST PIANO",
+    "label_clean": "Roche Musique",
+    "genre_clean": "Hip Hop",
+    "format_clean": "US LP",
+    "description_cn": "FKJ凭借对音乐疗愈力量的探索，推出了这张完全由钢琴演奏组成的作品。专辑旨在通过钢琴音乐与听众建立深层情感共鸣。"
   },
   {
     "slug": "outs07-outsider-parliament-funkadelic-get-up-off-your-ass",
@@ -287,7 +454,13 @@
     "label": "LIVE IN DETROIT1977 Funk  Repress LP of Parliament",
     "genre": "Funkadelic's live performance in Detroit in 1977ntains performances of well-known songs such as \"Maggot Brain,\" \"Mothership Connection,\" and “Flashlight.”",
     "price": "¥130",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Parliament",
+    "title_clean": "",
+    "label_clean": "Outsider",
+    "genre_clean": "",
+    "format_clean": "",
+    "description_cn": "Parliament是美国funk/soul乐队，以其创新的音乐风格和充满灵魂的表演而闻名。这张专辑展现了乐队标志性的funkadelic音乐特色。"
   },
   {
     "slug": "eqt121912-masego-lady-lady-hip-hop-uslp-unknown",
@@ -297,7 +470,13 @@
     "label": "",
     "genre": "",
     "price": "¥202",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "MASEGO",
+    "title_clean": "LADY LADY",
+    "label_clean": "",
+    "genre_clean": "Hip Hop",
+    "format_clean": "USLP",
+    "description_cn": "Masego的嘻哈专辑《Lady Lady》，展现了艺术家独特的音乐风格和创意制作。这张黑胶唱片为喜爱现代嘻哈音乐的听众呈现了高品质的音乐体验。"
   },
   {
     "slug": "iot87lp-iot-records-azu-tiwaline-fifth-dream-techno-eu2lp-un",
@@ -307,7 +486,13 @@
     "label": "",
     "genre": "",
     "price": "¥204",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "AZU",
+    "title_clean": "TIWALINE FIFTH DREAM",
+    "label_clean": "IOT Records",
+    "genre_clean": "Techno",
+    "format_clean": "EU2LP",
+    "description_cn": "AZU的电子音乐力作《Tiwaline Fifth Dream》，融合深邃的电子节奏与梦幻氛围，是一张沉浸式的双黑胶专辑。这张作品展现了艺术家对Techno音乐的创新诠释，适合电子音乐爱好者收藏。"
   },
   {
     "slug": "whp1473-whp-archie-shepp-live-in-europe-jazz-eu2lp-unknown",
@@ -317,7 +502,13 @@
     "label": "",
     "genre": "",
     "price": "¥173",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Archie Shepp",
+    "title_clean": "Live In Europe",
+    "label_clean": "WHP",
+    "genre_clean": "Jazz",
+    "format_clean": "EU2LP",
+    "description_cn": "阿奇·谢普的欧洲现场录音，捕捉了这位自由爵士先驱在舞台上的激情表演。这张双黑胶专辑展现了他标志性的萨克斯风风格和即兴创作才华。"
   },
   {
     "slug": "nsd235lp-nature-sounds-talib-kweli-madlib-liberation-2-hip-h",
@@ -327,7 +518,13 @@
     "label": "",
     "genre": "",
     "price": "¥221",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Talib Kweli & Madlib",
+    "title_clean": "Liberation 2",
+    "label_clean": "Nature Sounds",
+    "genre_clean": "Hip Hop",
+    "format_clean": "2LP",
+    "description_cn": "这是2006年网络宣布的《Liberation》的续作，下载量已超过10万次。这张作品可能是现代说唱早期最重要的发行之一。"
   },
   {
     "slug": "mms003ilp-madlib-invazion-madlib-medicine-show-no-3-beat-kon",
@@ -337,7 +534,13 @@
     "label": "",
     "genre": "",
     "price": "¥221",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Madlib",
+    "title_clean": "Madlib Medicine Show No. 3: Beat Konducta in Afrihcipa",
+    "label_clean": "Madlib Invazion",
+    "genre_clean": "Hip Hop",
+    "format_clean": "US LP",
+    "description_cn": "近40首器乐嘻哈精选集，融合爵士、放克、灵魂乐、巴西音乐和迷幻摇滚等多种音乐元素，展现制作人Madlib的多才多艺的音乐风格。"
   },
   {
     "slug": "643511-ovo-sound-partynextdoor-partymobile-hip-hop-us2lp-the",
@@ -347,7 +550,13 @@
     "label": "",
     "genre": "",
     "price": "¥187",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "PARTYNEXTDOOR",
+    "title_clean": "PARTYMOBILE",
+    "label_clean": "OVO Sound",
+    "genre_clean": "Hip Hop",
+    "format_clean": "US2LP",
+    "description_cn": "加拿大制作人兼歌手PartyNextDoor在2020年推出的专辑，他的音乐风格仅次于Drake。这张唱片汇集了多位知名嘉宾的精彩合作。"
   },
   {
     "slug": "defb003760601-def-jam-recordings-navy-blue-ways-of-knowing-h",
@@ -357,7 +566,13 @@
     "label": "",
     "genre": "",
     "price": "¥194",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Navy Blue",
+    "title_clean": "Ways of Knowing",
+    "label_clean": "Def Jam Recordings",
+    "genre_clean": "Hip Hop",
+    "format_clean": "US LP",
+    "description_cn": "Navy Blue是布鲁克林说唱艺术家Sage Elsesser的音乐项目，以其独特的嘻哈风格和深邃的音乐理念而闻名。《Ways of Knowing》是其黑胶唱片发行作品，展现了艺术家对hip-hop的个人诠释。"
   },
   {
     "slug": "rmm0551-aoi-records-de-la-soul-art-official-intelligence-mos",
@@ -367,7 +582,13 @@
     "label": "",
     "genre": "",
     "price": "¥223",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "De La Soul",
+    "title_clean": "Art Official Intelligence: Mosaic Thump",
+    "label_clean": "AOI Records",
+    "genre_clean": "Hip Hop",
+    "format_clean": "2LP",
+    "description_cn": "De La Soul的经典之作，邀请了Redman、Tash和J等嘉宾参与演出，展现了九十年代hip hop的创意与活力。"
   },
   {
     "slug": "uar015-delano-smith-norm-talley-straight-up-no-chaser-house",
@@ -377,7 +598,13 @@
     "label": "",
     "genre": "",
     "price": "¥182",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Delano Smith & Norm Talley",
+    "title_clean": "Straight Up No Chaser",
+    "label_clean": "UAR",
+    "genre_clean": "House",
+    "format_clean": "US2LP",
+    "description_cn": "底特律制作人Delano Smith与Norm Talley的精选合作，呈现纯正的House音乐风格。这张双LP汇集了两位艺术家的经典之作，展现深度的电子音乐制作与灵魂感十足的节奏。"
   },
   {
     "slug": "ss095-96",
@@ -387,7 +614,12 @@
     "label": "97 Sound Signature THEO PARRISH & MAURISSA ROSE FREE YOURSELF House US3LP",
     "genre": "",
     "price": "¥432",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "",
+    "title_clean": "",
+    "label_clean": "",
+    "genre_clean": "",
+    "description_cn": "精选黑胶唱片，详情请进店咨询。"
   },
   {
     "slug": "js001-dj-harrison-monotones-hip-hop-uslp-studio-and-record-l",
@@ -397,7 +629,13 @@
     "label": "instrumentalist DJ Harrison's album Monotones!",
     "genre": "",
     "price": "¥274",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "DJ Harrison Monotones",
+    "title_clean": "",
+    "label_clean": "Jellowstone",
+    "genre_clean": "Hip Hop",
+    "format_clean": "USLP",
+    "description_cn": "Jellowstone厂牌的首张发行作品，这张LP是为制作人十周年纪念精心打造的音乐合集。"
   },
   {
     "slug": "19658722231-john-legend-love-in-the-future-hip-hop-2lp-conta",
@@ -407,7 +645,13 @@
     "label": "",
     "genre": "",
     "price": "¥130",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "John Legend",
+    "title_clean": "Love in the Future",
+    "label_clean": "",
+    "genre_clean": "Hip Hop",
+    "format_clean": "2LP",
+    "description_cn": "约翰·传奇的专辑，收录众多热门歌曲，包括由坎耶·韦斯特制作的鲍比·卡德威尔经典歌曲《睁开你的眼睛》的翻唱版本。"
   },
   {
     "slug": "jazzr006-khan-jamal-infinity-jazz-uklp-unknown",
@@ -417,7 +661,13 @@
     "label": "",
     "genre": "",
     "price": "¥168",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Khan Jamal",
+    "title_clean": "",
+    "label_clean": "Infinity Jazz",
+    "genre_clean": "Jazz",
+    "format_clean": "UK LP",
+    "description_cn": "Khan Jamal是一位杰出的爵士打击乐手，以其精湛的振琴演奏技艺闻名。这张专辑展现了他在爵士音乐中的创新理念和深厚造诣。"
   },
   {
     "slug": "fw271-first-word-records-kaidi-tatham-only-way-house-uklp-th",
@@ -427,7 +677,13 @@
     "label": "",
     "genre": "",
     "price": "¥149",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Kaidi Tatham",
+    "title_clean": "Only Way",
+    "label_clean": "First Word Records",
+    "genre_clean": "House",
+    "format_clean": "UK LP",
+    "description_cn": "这张专辑由Uhmeer献声，融合了富有灵性的歌词与Kaidi Tatham多才多艺的键盘、贝斯和弦乐演奏，打造出独特的House音乐风格。"
   },
   {
     "slug": "bwood310lp-yussef-dayes-black-classical-music-jazz-2lp-unkno",
@@ -437,7 +693,13 @@
     "label": "",
     "genre": "",
     "price": "¥245",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "YUSSEF DAYES",
+    "title_clean": "BLACK CLASSICAL MUSIC",
+    "label_clean": "BWOOD",
+    "genre_clean": "Jazz",
+    "format_clean": "2LP",
+    "description_cn": "英国鼓手尤瑟夫·戴耶斯的爵士力作，融合古典音乐元素与现代爵士风格，呈现独特的音乐视角。双黑胶唱片完整收录这部充满创意与深度的作品。"
   },
   {
     "slug": "apronevil03-apron-steven-julien-and-kyle-hall-crown-house-12",
@@ -447,7 +709,13 @@
     "label": "",
     "genre": "",
     "price": "¥137",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "Steven Julien and Kyle Hall",
+    "title_clean": "Crown House",
+    "label_clean": "Apron",
+    "genre_clean": "House",
+    "format_clean": "12\"",
+    "description_cn": "Apron厂牌呈献Steven Julien与Kyle Hall的联合企划，两位制作人时隔十年首次携手合作，以FUNKINEVIL之名为大家献上充满灵感的House音乐作品。"
   },
   {
     "slug": "ast043-astral-black-jossy-mitsu-planet-j-2-ep-techno-uk12-a",
@@ -457,7 +725,13 @@
     "label": "",
     "genre": "",
     "price": "¥113",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "JOSSY MITSU",
+    "title_clean": "PLANET J",
+    "label_clean": "Astral Black",
+    "genre_clean": "Techno",
+    "format_clean": "UK12''",
+    "description_cn": "这是一张强劲有力的科技舞曲EP，展现了JOSSY MITSU在电子音乐制作中的实力。适合喜爱极简主义技术舞曲的听众。"
   },
   {
     "slug": "ziq457-planet-mu-unknown",
@@ -467,7 +741,13 @@
     "label": "",
     "genre": "",
     "price": "¥173",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "",
+    "title_clean": "",
+    "label_clean": "Planet Mu",
+    "genre_clean": "",
+    "format_clean": "",
+    "description_cn": "Planet Mu旗下的一张音乐作品，展现了厂牌对前沿电子音乐的执着追求。"
   },
   {
     "slug": "mrblp178rb-mr-bongo-unknown",
@@ -477,6 +757,12 @@
     "label": "",
     "genre": "",
     "price": "¥149",
-    "condition": ""
+    "condition": "",
+    "artist_clean": "",
+    "title_clean": "",
+    "label_clean": "Mr. Bongo",
+    "genre_clean": "",
+    "format_clean": "LP",
+    "description_cn": "Mr. Bongo厂牌出品的黑胶唱片，致力于推介拉丁、灵魂乐与世界音乐的精品之作。"
   }
 ]

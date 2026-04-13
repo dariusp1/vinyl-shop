@@ -39,6 +39,7 @@ PAGE_TEMPLATE = """\
                 <dt>品相</dt><dd><span class="badge">{condition}</span></dd>
                 <dt>价格</dt><dd class="price">{price}</dd>
             </dl>
+            {description_block}
         </div>
 
         <div class="player-section">
@@ -82,15 +83,28 @@ def main() -> None:
         page_dir = RECORDS_DIR / slug
         page_dir.mkdir(parents=True, exist_ok=True)
 
+        # Use enriched fields if available, fall back to raw
+        artist = record.get("artist_clean") or record.get("artist", "")
+        title  = record.get("title_clean")  or record.get("title", "")
+        label  = record.get("label_clean")  or record.get("label", "")
+        genre  = record.get("genre_clean")  or record.get("genre", "")
+
+        desc_cn = record.get("description_cn", "").strip()
+        description_block = (
+            f'<p class="record-description">{escape(desc_cn)}</p>'
+            if desc_cn else ""
+        )
+
         html = PAGE_TEMPLATE.format(
             slug=escape(slug),
-            artist=escape(record.get("artist", "")),
-            title=escape(record.get("title", "")),
+            artist=escape(artist),
+            title=escape(title),
             year=escape(record.get("year", "")),
-            label=escape(record.get("label", "")),
-            genre=escape(record.get("genre", "")),
+            label=escape(label),
+            genre=escape(genre),
             condition=escape(record.get("condition", "")),
             price=escape(record.get("price", "")),
+            description_block=description_block,
         )
 
         with open(page_dir / "index.html", "w", encoding="utf-8") as f:
