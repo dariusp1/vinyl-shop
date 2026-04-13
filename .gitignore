@@ -1,8 +1,6 @@
 .DS_Store
 *.DS_Store
 audio/*.mp3
-assets/covers/*.jpg
-assets/covers/*.png
 __pycache__/
 *.pyc
 .env
