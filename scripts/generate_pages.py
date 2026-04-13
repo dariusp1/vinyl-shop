@@ -32,13 +32,7 @@ PAGE_TEMPLATE = """\
         <div class="record-meta">
             <h1 class="record-artist">{artist}</h1>
             <h2 class="record-title">{title}</h2>
-            <dl class="meta-list">
-                <dt>年份</dt><dd>{year}</dd>
-                <dt>厂牌</dt><dd>{label}</dd>
-                <dt>风格</dt><dd>{genre}</dd>
-                <dt>品相</dt><dd><span class="badge">{condition}</span></dd>
-                <dt>价格</dt><dd class="price">{price}</dd>
-            </dl>
+            <p class="price">{price}</p>
             {description_block}
         </div>
 
