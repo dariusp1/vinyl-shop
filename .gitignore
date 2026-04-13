@@ -1,6 +1,7 @@
 .DS_Store
 *.DS_Store
 audio/*.mp3
+audio/*/
 __pycache__/
 *.pyc
 .env
