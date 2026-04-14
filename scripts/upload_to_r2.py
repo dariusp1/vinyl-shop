@@ -21,7 +21,7 @@ CDN_BASE   = "https://pub-3675eb5935fc4273bdc62901c38dcce6.r2.dev"
 def upload_file(local: Path, remote_key: str) -> bool:
     result = subprocess.run(
         ["wrangler", "r2", "object", "put", f"{BUCKET}/{remote_key}",
-         "--file", str(local), "--content-type", "audio/mpeg"],
+         "--file", str(local), "--content-type", "audio/mpeg", "--remote"],
         capture_output=True, text=True
     )
     if result.returncode != 0:
