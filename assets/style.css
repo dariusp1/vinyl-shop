@@ -401,15 +401,6 @@ main.catalog {
   gap: 0.625rem;
 }
 
-.track-label {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  color: var(--color-text-secondary);
-  flex-shrink: 0;
-  width: 2.25rem;
-  text-align: right;
-}
-
 .track-item .progress-bar {
   flex: 1;
   margin-bottom: 0;
