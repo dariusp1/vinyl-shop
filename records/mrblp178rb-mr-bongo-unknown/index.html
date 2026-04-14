@@ -25,14 +25,37 @@
             <p class="record-description">Mr. Bongo厂牌出品的黑胶唱片，致力于推介拉丁、灵魂乐与世界音乐的精品之作。</p>
         </div>
 
-                <div class="player-section">
-            <div id="progress-bar" class="progress-bar">
-                <div id="progress-fill" class="progress-fill"></div>
-            </div>
-            <button id="play-btn" class="play-button">&#9654; 试听 30秒</button>
-            <audio id="audio" preload="metadata" crossorigin="anonymous">
-                <source src="https://pub-3675eb5935fc4273bdc62901c38dcce6.r2.dev/mrblp178rb-mr-bongo-unknown.mp3" type="audio/mpeg">
+                        <div class="player-section">
+        <div class="track-list">
+        <div class="track-item">
+            <div class="progress-bar"><div class="progress-fill"></div></div>
+            <button class="play-button track-btn">&#9654; 试听</button>
+            <audio preload="metadata" crossorigin="anonymous">
+                <source src="https://pub-3675eb5935fc4273bdc62901c38dcce6.r2.dev/mrblp178rb-mr-bongo-unknown/track_01.mp3" type="audio/mpeg">
             </audio>
+        </div>
+        <div class="track-item">
+            <div class="progress-bar"><div class="progress-fill"></div></div>
+            <button class="play-button track-btn">&#9654; 试听</button>
+            <audio preload="metadata" crossorigin="anonymous">
+                <source src="https://pub-3675eb5935fc4273bdc62901c38dcce6.r2.dev/mrblp178rb-mr-bongo-unknown/track_02.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="track-item">
+            <div class="progress-bar"><div class="progress-fill"></div></div>
+            <button class="play-button track-btn">&#9654; 试听</button>
+            <audio preload="metadata" crossorigin="anonymous">
+                <source src="https://pub-3675eb5935fc4273bdc62901c38dcce6.r2.dev/mrblp178rb-mr-bongo-unknown/track_03.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="track-item">
+            <div class="progress-bar"><div class="progress-fill"></div></div>
+            <button class="play-button track-btn">&#9654; 试听</button>
+            <audio preload="metadata" crossorigin="anonymous">
+                <source src="https://pub-3675eb5935fc4273bdc62901c38dcce6.r2.dev/mrblp178rb-mr-bongo-unknown/track_04.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        </div>
         </div>
 
         <div class="buy-section">
@@ -41,6 +64,6 @@
     </article>
 
     <script src="../../assets/player.js"></script>
-    <script>initPlayer();</script>
+    <script>initMultiPlayer();</script>
 </body>
 </html>
