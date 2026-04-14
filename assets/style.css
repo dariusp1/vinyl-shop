@@ -105,29 +105,25 @@ small {
   color: var(--color-text-secondary);
 }
 
-/* ========== ASCII Logo ========== */
+/* ========== Site Logo ========== */
 
-.ascii-logo {
-  font-family: var(--font-mono);
-  color: var(--color-accent);
-  white-space: pre;
-  overflow-x: auto;
-  line-height: 1.2;
-  font-size: 0.625rem;
-  padding: 1rem 0;
-  text-align: center;
-  -webkit-overflow-scrolling: touch;
+.site-logo {
+  display: block;
+  margin: 0.75rem auto;
+  max-width: 280px;
+  height: auto;
+  filter: invert(1);
 }
 
 @media (min-width: 480px) {
-  .ascii-logo {
-    font-size: 0.75rem;
+  .site-logo {
+    max-width: 340px;
   }
 }
 
 @media (min-width: 768px) {
-  .ascii-logo {
-    font-size: 0.875rem;
+  .site-logo {
+    max-width: 400px;
   }
 }
 
