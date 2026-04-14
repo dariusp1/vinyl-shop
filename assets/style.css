@@ -191,17 +191,33 @@ main.catalog {
 
 .catalog-row a {
   flex: 1;
+  display: flex;
+  gap: 0.75rem;
   font-size: 0.8125rem;
   color: var(--color-text-primary);
   text-decoration: none;
+  overflow: hidden;
+}
+
+.catalog-row a:hover .row-artist,
+.catalog-row a:hover .row-title {
+  text-decoration: underline;
+}
+
+.row-artist {
+  flex-shrink: 0;
+  width: 34%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.catalog-row a:hover {
-  color: var(--color-accent);
-  text-decoration: underline;
+.row-title {
+  flex: 1;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .row-price {

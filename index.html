@@ -40,12 +40,16 @@
                     emptyMsg.hidden = false;
                     return;
                 }
+                catalog.sort(function (a, b) {
+                    return (a.artist_clean || a.artist || '').localeCompare(b.artist_clean || b.artist || '');
+                });
                 var html = '';
                 for (var i = 0; i < catalog.length; i++) {
                     var r = catalog[i];
                     html += '<li class="catalog-row">'
                         + '<a href="records/' + encodeURIComponent(r.slug) + '/">'
-                        + esc(r.artist)
+                        + '<span class="row-artist">' + esc(r.artist_clean || r.artist) + '</span>'
+                        + '<span class="row-title">' + esc(r.title_clean || r.title) + '</span>'
                         + '</a>'
                         + '<span class="row-price">' + esc(r.price) + '</span>'
                         + '</li>';
