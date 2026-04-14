@@ -12,6 +12,22 @@
 
 var PREVIEW_SECONDS = 30;
 
+// WeChat/X5 audio unlock — pre-warms the audio pipeline on first touch
+// so there's no cold-start delay when the user taps the play button.
+(function () {
+    function unlock() {
+        var a = new Audio();
+        a.src = 'data:audio/mpeg;base64,SUQzAwAAAAAAI1RTU0UAAAAPAAADTGF2ZjU2LjM2LjEwMAAAAAAAAAAAAAAA//OEAAAAAAAAAAAAAAAAAAAAAAAASW5mbwAAAA8AAAABAAACcQCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA//MUZAAAAAGkAAAAAAAAA0gAAAAATEFN//MUZAMAAAGkAAAAAAAAA0gAAAAATEFN//MUZAYAAAGkAAAAAAAAA0gAAAAATEFN//MUZAkAAAGkAAAAAAAAA0gAAAAATEFNRTMuOTkuNVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV';
+        a.volume = 0;
+        var p = a.play();
+        if (p) p.catch(function () {});
+        document.removeEventListener('touchstart', unlock, true);
+        document.removeEventListener('touchend', unlock, true);
+    }
+    document.addEventListener('touchstart', unlock, true);
+    document.addEventListener('touchend', unlock, true);
+})();
+
 function initPlayer() {
     var btn   = document.getElementById('play-btn');
     var audio = document.getElementById('audio');
