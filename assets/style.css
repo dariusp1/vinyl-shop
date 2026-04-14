@@ -212,6 +212,12 @@ main.catalog {
   text-overflow: ellipsis;
 }
 
+.row-artist::after {
+  content: " —";
+  color: var(--color-border);
+  margin-right: 0.4rem;
+}
+
 .row-title {
   flex: 1;
   color: var(--color-text-secondary);
