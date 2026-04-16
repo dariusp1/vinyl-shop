@@ -145,11 +145,13 @@ def discogs_tracklist(artist, title, slug):
     return tracks
 
 # ── Page builder ──────────────────────────────────────────────────────────────
-def build_player_html(slug, filenames):
+def build_player_html(slug, filenames, track_names=None):
     items = []
-    for fname in filenames:
+    for i, fname in enumerate(filenames):
         url = f"{CDN}/{slug}/{fname}"
-        items.append(f"""        <div class="track-item">
+        name = (track_names or {}).get(fname, "")
+        name_html = f'\n            <span class="track-name">{name}</span>' if name else ""
+        items.append(f"""        <div class="track-item">{name_html}
             <div class="progress-bar"><div class="progress-fill"></div></div>
             <button class="play-button track-btn">&#9654; 试听</button>
             <audio preload="metadata" crossorigin="anonymous">
@@ -177,12 +179,12 @@ def replace_player(content, new_player):
         if depth == 0: break
     return content[:start] + new_player + content[i:]
 
-def update_page(slug, filenames):
+def update_page(slug, filenames, track_names=None):
     page = RECORDS / slug / "index.html"
     if not page.exists():
         return False
     content = page.read_text(encoding="utf-8")
-    new_content = replace_player(content, build_player_html(slug, filenames))
+    new_content = replace_player(content, build_player_html(slug, filenames, track_names))
     new_content = new_content.replace("initPlayer();", "initMultiPlayer();")
     page.write_text(new_content, encoding="utf-8")
     return True
@@ -223,6 +225,7 @@ def process_record(r):
         pick = [tracks[int(i * step)] for i in range(TARGET)]
 
     new_files = []
+    track_names = {}  # fname → track title
     for i, track_title in enumerate(pick, 1):
         query = f"{artist} {track_title}"
         log(f"  → [{i}/{len(pick)}] searching: {query}")
@@ -238,6 +241,7 @@ def process_record(r):
                 if ok:
                     log(f"      ✓ {fname}")
                     new_files.append(dst)
+                    track_names[fname] = track_title
                     break
                 else:
                     log(f"      ✗ failed, trying next…")
@@ -265,14 +269,26 @@ def process_record(r):
         log(f"  ✗ all uploads failed")
         return "fail"
 
-    update_page(slug, sorted(uploaded))
+    update_page(slug, sorted(uploaded), track_names)
     log(f"  ✓ page updated ({len(uploaded)} tracks)")
     return "ok"
+
+def has_generic_tracks(slug):
+    """Return True if the record has only generic track_NN.mp3 files (needs repass)."""
+    subdir = AUDIO_DIR / slug
+    if not subdir.is_dir():
+        return False
+    mp3s = list(subdir.glob("*.mp3"))
+    if not mp3s:
+        return False
+    return all(f.name.startswith("track_") for f in mp3s)
+
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--slug",  help="process one specific slug")
+    parser.add_argument("--all",   action="store_true", help="repass all records with generic track_NN audio")
     parser.add_argument("--list",  action="store_true", help="list qualifying records and exit")
     args = parser.parse_args()
 
@@ -281,6 +297,8 @@ def main():
 
     if args.slug:
         slugs = [args.slug]
+    elif args.all:
+        slugs = [r["slug"] for r in catalog if has_generic_tracks(r["slug"])]
     else:
         slugs = SEARCH_FALLBACK_SLUGS
 

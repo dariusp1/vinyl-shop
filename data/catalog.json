@@ -400,19 +400,19 @@
   },
   {
     "slug": "sth-2110-stones-throw-quasimoto-us2lp-unknown",
-    "artist": "STH 2110 STONES THROW QUASIMOTO US2LP",
+    "artist": "Quasimoto",
     "title": "The Further Adventures of Lord Quas",
-    "year": "",
-    "label": "",
-    "genre": "",
+    "year": "2005",
+    "label": "Stones Throw Records",
+    "genre": "Hip Hop",
     "price": "¥193",
     "condition": "",
     "artist_clean": "Quasimoto",
     "title_clean": "The Further Adventures of Lord Quas",
     "label_clean": "Stones Throw",
-    "genre_clean": "",
+    "genre_clean": "Hip Hop",
     "format_clean": "US2LP",
-    "description_cn": "Stones Throw厂牌旗下传奇说唱艺人Quasimoto的经典作品,融合了独特的嘻哈风格和创意采样手法。这张专辑展现了艺人标志性的艺术风格和音乐才华。"
+    "description_cn": "Madlib另一个人格Lord Quas的第二张专辑，2005年由Stones Throw厂牌发行。Quasimoto以失真的高音演绎迷幻嘻哈，游走于精妙采样与意识流歌词之间。双黑胶共24首曲目，是地下嘻哈的经典标杆之作。"
   },
   {
     "slug": "sth-2126lp-stones-throw-j-dilla-donuts-smile-cover-us2lp-fin",
@@ -449,18 +449,18 @@
   {
     "slug": "outs07-outsider-parliament-funkadelic-get-up-off-your-ass",
     "artist": "Parliament-Funkadelic",
-    "title": "Get Up Off Your Ass",
+    "title": "Get Up Off Your Ass (Live In Detroit 1977)",
     "year": "1977",
-    "label": "LIVE IN DETROIT1977 Funk  Repress LP of Parliament",
-    "genre": "Funkadelic's live performance in Detroit in 1977ntains performances of well-known songs such as \"Maggot Brain,\" \"Mothership Connection,\" and “Flashlight.”",
+    "label": "Outsider Records",
+    "genre": "Funk / Soul",
     "price": "¥130",
     "condition": "",
     "artist_clean": "Parliament-Funkadelic",
-    "title_clean": "Get Up Off Your Ass",
+    "title_clean": "Get Up Off Your Ass (Live In Detroit 1977)",
     "label_clean": "Outsider",
-    "genre_clean": "",
-    "format_clean": "",
-    "description_cn": "Parliament是美国funk/soul乐队，以其创新的音乐风格和充满灵魂的表演而闻名。这张专辑展现了乐队标志性的funkadelic音乐特色。"
+    "genre_clean": "Funk / Soul",
+    "format_clean": "LP",
+    "description_cn": "Parliament-Funkadelic 1977年底特律现场录音，2021年由意大利独立厂牌Outsider Records复刻发行。收录《Funkentelechy》《Maggot Brain》《Mothership Connection (Starchild)》《Flashlight》等经典曲目，完整呈现P.Funk全盛时期的舞台能量。"
   },
   {
     "slug": "eqt121912-masego-lady-lady-hip-hop-uslp-unknown",
@@ -736,19 +736,19 @@
   },
   {
     "slug": "ziq457-planet-mu-unknown",
-    "artist": "Actress",
-    "title": "Karma & Desire",
-    "year": "",
-    "label": "",
-    "genre": "",
+    "artist": "Speaker Music",
+    "title": "Techxodus",
+    "year": "2023",
+    "label": "Planet Mu",
+    "genre": "Electronic",
     "price": "¥173",
     "condition": "",
-    "artist_clean": "Actress",
-    "title_clean": "Karma & Desire",
+    "artist_clean": "Speaker Music",
+    "title_clean": "Techxodus",
     "label_clean": "Planet Mu",
-    "genre_clean": "Electronic",
-    "format_clean": "",
-    "description_cn": "Planet Mu旗下的一张音乐作品，展现了厂牌对前沿电子音乐的执着追求。"
+    "genre_clean": "Electronic / Techno",
+    "format_clean": "Vinyl",
+    "description_cn": "DeForrest Brown Jr.以Speaker Music之名发行的双黑胶专辑，2023年由Planet Mu出品。融合Techno、Bass Music与实验电子乐，以非裔未来主义为精神核心，探索黑人科技哲学与声音政治的交汇地带。"
   },
   {
     "slug": "mrblp178rb-mr-bongo-unknown",
@@ -845,5 +845,21 @@
     "genre_clean": "Funk / Soul",
     "format_clean": "Vinyl",
     "description_cn": ""
+  },
+  {
+    "slug": "aricd075-ariwa-mad-professor-dub-maniacs-on-the-rampage",
+    "artist": "Mad Professor",
+    "title": "Dub Maniacs On The Rampage",
+    "year": "1993",
+    "label": "Ariwa",
+    "genre": "Reggae",
+    "price": "¥133",
+    "condition": "",
+    "artist_clean": "Mad Professor",
+    "title_clean": "Dub Maniacs On The Rampage",
+    "label_clean": "Ariwa",
+    "genre_clean": "Dub / Roots Reggae",
+    "format_clean": "CD",
+    "description_cn": "疯狂教授1993年的Dub佳作，由Ariwa厂牌发行。十三首曲目穿梭于迷幻Dub与Roots Reggae之间，以标志性的混音手法重塑音场空间。收录《Dub So Hard》《Acid Meets Dub In Crystal Palace》等经典曲目。"
   }
 ]
